@@ -1,2 +1,11 @@
 h1{ color: aquamarine;}
+
 #id1 {background-color: darkkhaki;}
+
+.class1{background-color: lightsalmon;}
+
+a{ background-color: chartreuse;}
+
+.class2.class3 { background-color: fuchsia;}
+
+.class2.class3 p{background-color: cornsilk;}
