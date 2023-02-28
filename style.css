@@ -4,7 +4,11 @@ h1{ color: aquamarine;}
 
 .class1{background-color: lightsalmon;}
 
-a{ background-color: chartreuse;}
+a
+{ background-color: chartreuse;
+    display: block;
+
+}
 
 .class2.class3 { background-color: fuchsia;}
 
@@ -36,5 +40,27 @@ a:visited {
 }
 
 a:hover {
-    color: blue;
+    color: blue; /* když na odkaz najedu myší*/
 }
+
+a:active {
+    text-decoration: underline
+}
+
+a:link {
+    text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    display: inline;
+    margin: 0px;
+    padding: 100px;
+    border: 5px solid black;
+}
+/* inline elementy nemaji margin a padding, respektive maji ale jsou k nicemu*/
