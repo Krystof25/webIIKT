@@ -64,3 +64,14 @@ li {
     border: 5px solid black;
 }
 /* inline elementy nemaji margin a padding, respektive maji ale jsou k nicemu*/
+
+.kk {
+    margin-bottom: 100px;
+}
+
+#aha {
+    background-color: coral;
+    width: 200px;
+    height: 100px;
+    overflow: scroll;/*urcuje chovani textu, když se nevleze do elementu*/
+ } 
