@@ -9,3 +9,32 @@ a{ background-color: chartreuse;}
 .class2.class3 { background-color: fuchsia;}
 
 .class2.class3 p{background-color: cornsilk;}
+
+.class6 {
+    border: 5px black;
+    background-color: blue;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    padding-right: 150px;
+    padding-left: 80px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-right: 150px;
+    margin-left: 80;
+}
+
+.class3 {
+    margin: 100px 100px 150px 200px ;
+}
+
+a:link {
+color: crimson;
+}
+
+a:visited {
+    color: chartreuse;
+}
+
+a:hover {
+    color: blue;
+}
