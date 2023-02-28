@@ -73,5 +73,11 @@ li {
     background-color: coral;
     width: 200px;
     height: 100px;
-    overflow: scroll;/*urcuje chovani textu, když se nevleze do elementu*/
+    overflow: hidden;/*urcuje chovani textu, když se nevleze do elementu*/
  } 
+
+ .box {
+    border: 5px solid black;
+    width: 20%; /* nastavi kolik obrazovky to zabírá*/
+    float: center; /* hodi to elementy na jednu stranu a prehodi poradi*/
+ }
