@@ -1,3 +1,4 @@
+/*
 h1{ color: aquamarine;}
 
 #id1 {background-color: darkkhaki;}
@@ -40,7 +41,7 @@ a:visited {
 }
 
 a:hover {
-    color: blue; /* když na odkaz najedu myší*/
+    color: blue;
 }
 
 a:active {
@@ -63,7 +64,6 @@ li {
     padding: 100px;
     border: 5px solid black;
 }
-/* inline elementy nemaji margin a padding, respektive maji ale jsou k nicemu*/
 
 .kk {
     margin-bottom: 100px;
@@ -73,11 +73,33 @@ li {
     background-color: coral;
     width: 200px;
     height: 100px;
-    overflow: hidden;/*urcuje chovani textu, když se nevleze do elementu*/
+    overflow: hidden;
  } 
 
  .box {
     border: 5px solid black;
-    width: 20%; /* nastavi kolik obrazovky to zabírá*/
-    float: center; /* hodi to elementy na jednu stranu a prehodi poradi*/
+    width: 20%; 
+    float: center; 
+ }
+ */
+
+ * { 
+    margin: 0px;
+ }
+
+ ul {
+    list-style-type: none;
+    background-color: black;
+    overflow: hidden;
+ }
+
+ li {
+ float: left;
+ padding: 25px;
+ }
+
+ a {
+    color: white;
+    font-size: 25px;
+    text-decoration: none;
  }
